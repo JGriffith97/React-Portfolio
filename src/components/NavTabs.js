@@ -18,6 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Projects
         </a>
       </li>
+      {/* May make more pages, not sure yet. */}
     </ul>
   );
 }

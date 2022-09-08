@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import About from './pages/About';
 import Home from './pages/Home';
+import About from './pages/About';
 import Projects from './pages/Projects'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -23,6 +23,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+    // Parent div to react elements.
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

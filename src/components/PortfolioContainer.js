@@ -1,22 +1,17 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Portfolio from './pages/Portfolio'
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Projects') {
-      return <Projects />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
   };
 
@@ -25,6 +20,7 @@ export default function PortfolioContainer() {
   return (
     // Parent div to react elements.
     <div>
+      <header>THIS</header>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

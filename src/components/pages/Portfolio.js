@@ -1,17 +1,16 @@
 import React from 'react';
-import '../../css/Projects.css';
 
-export default function Projects() {
+export default function Portfolio() {
   return (
     <div>
       <h1>
-        My Projects
+        Portfolio
       </h1>
-      <p>
+      <section>
         {/* Work In Progress */}
         {/* Need to figure out how to incorporate images, probably
-        use props to pass in data. */}
-      </p>
+        just hard-code it. */}
+      </section>
     </div>
   );
 };

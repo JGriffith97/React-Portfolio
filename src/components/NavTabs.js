@@ -13,7 +13,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      {/* May make more pages, not sure yet. */}
+      <li className="nav-item">
+        <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }

@@ -1,6 +1,15 @@
+:root {
+  --ui: #021c4c;
+  --section: 0.5% 29% 1% 29%
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.5%;
+}
+
 header {
   display: flex;
-  background-color: #2A57AB;
+  background-color: var(--ui);
 }
 
 .header-div {
@@ -28,6 +37,8 @@ header {
 body {
   background-color: #282c34;
   color: antiquewhite;
+  height: 100%;
+  margin: 0;
 }
 
 .nav {
@@ -49,6 +60,20 @@ body {
   margin: 0 1% 0 1%;
 }
 
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
 .nav-link {
   width: 100px;
   display: flex;
@@ -60,6 +85,57 @@ body {
   font-size: 1.25em;
   padding: 2px;
   margin: 0 4% 0 4%;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--section);
+  justify-content: center;
+}
+
+.main-header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.me-img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.main-paragraph {
+  margin: 1% 0 0 0;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--ui);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  padding: 1% 30% 1% 30%;
+}
+
+.footer-refs-1 {
+  text-align: center;
+  flex: 50%;
+}
+
+.footer-refs-2 {
+  text-align: center;
+  flex: 50%;
+}
+
+.git {
+  max-width: 30%;
+}
+
+.in {
+  max-width: 20%;
 }
 
 .App {

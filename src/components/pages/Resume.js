@@ -1,5 +1,8 @@
 import React from 'react';
 
+// NOTES-TODOs
+// Kinda a tricky one, will require a downloadable resume file.
+
 export default function Resume() {
   return (
     <div>

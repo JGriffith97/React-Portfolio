@@ -1,6 +1,7 @@
 :root {
   --ui: #021c4c;
-  --section: 0.5% 29% 1% 29%
+  --section: 0.5% 29% 1% 29%;
+  --info: 0.5% 15% 0% 15%;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -99,8 +100,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.5% 15% 0% 15%;
+  margin: var(--info);
   justify-content: center;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--info)
 }
 
 .main-header-div {
@@ -244,6 +252,11 @@ body {
   font-weight: 600;
 }
 
+.project-title {
+  margin-bottom: 0.5%;
+  text-decoration: underline;
+}
+
 .project-explanation {
   display: flex;
   flex-direction: column;
@@ -252,6 +265,59 @@ body {
   background-color: rgb(35, 35, 35);
   text-align: center;
   height: 100%;
+}
+
+.send-message-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.label {
+  margin-top: 0.2%;
+  margin-bottom: 0.2%;
+}
+
+.title-input {
+  width: 30%;
+}
+
+.message-input {
+  width: 30%;
+  height: 200px;
+}
+
+input, textarea {
+  padding: 0.5%;
+}
+
+button {
+  margin: 1% 1% 1.5% 1%;
+  width: 30%;
+  height: 40px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  background-color: var(--ui);
+  color: #b7d3ff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1.25em;
+  transition: .15s;
+}
+
+button:hover {
+  border: 1px solid white;
+  color: white;
 }
 
 footer {

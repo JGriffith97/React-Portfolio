@@ -3,10 +3,13 @@ import MovieClub from '../../images/MovieClub.jpg'
 import TechBlog from '../../images/TechBlog.png'
 import SocialNetworkAPI from '../../images/SocialNetworkAPI.png'
 import EmployeeTracker from '../../images/EmployeeTracker.png'
+import WeatherDashboard from '../../images/WeatherDashboard.jpg'
+import DailyPlanner from '../../images/DailyPlanner.png'
 
 // NOTES-TODOs
 // Similar to what we did on the original portfolio, images linking to the
 // deployed application and/or the associated repository
+// Will need SIX. Need to add two more.
 
 export default function Portfolio() {
   return (
@@ -25,6 +28,7 @@ export default function Portfolio() {
               <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/Firm-Tofu10/MovieClub" rel="noreferrer" target="_blank">View On GitHub</a></div>
             </div>
             <div className='project-explanation'>
+              <h3 className='project-title'>Movie Club</h3>
               This is a movie review project undertaken by Kate Patch, Bryson Benson and myself. It was created utilizing Express.js/Express-Handlebars/Express-Sessions, mySQL/Sequelize/mySQL2/Connect-Session-Sequelize, and bCrypt. As part of Project 2 of the UofU's Coding Bootcamp.
             </div>
           </div>
@@ -35,6 +39,7 @@ export default function Portfolio() {
               <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/JGriffith97/Tech-Blog" rel="noreferrer" target="_blank">View On GitHub</a></div>
             </div>
             <div className='project-explanation'>
+              <h3 className='project-title'>Tech Blog</h3>
               This is a full-stack application serving as a tech blog. It was created using Node.js, mySQL/Sequelize, Express/Express-Sessions/Express-Handlebars; and utilizing Model-View-Controller(MVC) framework. As part of Module 14 of the UofU's Coding Bootcamp.
             </div>
           </div>
@@ -46,6 +51,7 @@ export default function Portfolio() {
               <div className='project-link-center'><a className="project-anchor" href="https://github.com/JGriffith97/Social-Network-API" rel="noreferrer" target="_blank">View On GitHub</a></div>
             </div>
             <div className='project-explanation'>
+              <h3 className='project-title'>Social Network API</h3>
               This is a social network backend API built utilizing Express.js, MongoDB, Mongoose, and NodeJS. As part of Module 18 of the UofU's Coding Bootcamp.
             </div>
           </div>
@@ -55,7 +61,32 @@ export default function Portfolio() {
               <div className='project-link-center'><a className="project-anchor" href="https://github.com/JGriffith97/Employee-Tracker" rel="noreferrer" target="_blank">View On GitHub</a></div>
             </div>
             <div className='project-explanation'>
+              <h3 className='project-title'>Employee Tracker</h3>
               This is an employee tracker, designed to track individual employees, their roles, departments, and salary. This application was made with NodeJS, mySQL, and with the console.table, dotenv, inquirer, and mysql2 NPM modules. As part of the Module 12 Challenge of the UofU's Coding Bootcamp.
+            </div>
+          </div>
+        </div>
+        <div className='project-row'>
+          <div className='project-container'>
+            <div className='project-left'>
+              <img className='project-img' src={WeatherDashboard} alt='Weather Dashboard Project'/>
+              <div className='project-link-top'><a className="project-anchor" href="https://jgriffith97.github.io/Weather-Dashboard/" rel="noreferrer" target="_blank">View Deployed App</a></div>
+              <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/JGriffith97/Weather-Dashboard" rel="noreferrer" target="_blank">View On GitHub</a></div>
+            </div>
+            <div className='project-explanation'>
+              <h3 className='project-title'>Weather Dashboard</h3>
+              This is a weather app utilizing the OpenWeatherMap API to make multiple fetch calls to display information to the DOM. This was completed using HTML, JavaScript, jQuery, Moment.js, and Bootstrap.
+            </div>
+          </div>
+          <div className='project-container'>
+            <div className='project-left'>
+              <img className='project-img' src={DailyPlanner} alt='Daily Planner API Project'/>
+              <div className='project-link-top'><a className="project-anchor" href="https://jgriffith97.github.io/Daily-Planner/" rel="noreferrer" target="_blank">View Deployed App</a></div>
+              <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/JGriffith97/Daily-Planner" rel="noreferrer" target="_blank">View On GitHub</a></div>
+            </div>
+            <div className='project-explanation'>
+              <h3 className='project-title'>Daily Planner</h3>
+              This is a functional daily planner for hour to hour scheduling, created by utilizing HTML, CSS, JavaScript, jQuery, Moment.js, and Bootstrap.
             </div>
           </div>
         </div>

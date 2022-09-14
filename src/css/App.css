@@ -1,7 +1,7 @@
 :root {
   --ui: #021c4c;
-  --section: 0.5% 29% 1% 29%;
-  --info: 0.5% 15% 0% 15%;
+  --section: 4% 29% 4% 29%;
+  --info: 4% 15% 4% 15%;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -11,6 +11,7 @@
 header {
   display: flex;
   background-color: var(--ui);
+  align-items: center;
 }
 
 .header-div {
@@ -36,10 +37,14 @@ header {
 }
 
 body {
+  display: block;
+  flex-direction: column;
   background-color: #282c34;
   color: antiquewhite;
-  height: 100%;
   margin: 0;
+  position: relative;
+  padding-bottom: 86px;
+  min-height: 100vh;
 }
 
 .nav {
@@ -325,8 +330,12 @@ footer {
   display: flex;
   flex-direction: row;
   color: white;
-  align-items: center;
   padding: 1% 20% 1% 20%;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 86px;
 }
 
 .footer-refs-1 {

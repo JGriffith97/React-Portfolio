@@ -6,6 +6,11 @@ import React from 'react';
 // MAKE EVENT LISTENER to handle from submit, send email.
 
 export default function Contact() {
+
+  const handleSubmit = (event) => {
+    event.preventDefault()
+  }
+
   return (
     <div className='contact-div'>
       <div className='main-header-div'>
@@ -26,7 +31,7 @@ export default function Contact() {
           <p className='label'><label>Message:</label></p>
           <textarea className='message-input' id='message' name='message' placeholder='Your message here.' required></textarea>
         </div>
-        <button type='submit'>Send Message</button>
+        <button type='submit' onClick={handleSubmit}>Send Message</button>
       </form>
     </div>
   )

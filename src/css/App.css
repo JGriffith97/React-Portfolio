@@ -894,10 +894,11 @@
     margin: var(--info);
   }
 
-  .main-header-div {
+  .about-header-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3%;
   }
 
   .me-img {

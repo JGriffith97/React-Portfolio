@@ -9,14 +9,14 @@ import jgResume from '../../documents/JG-Resume.pdf'
 export default function Resume() {
   return (
     <div className='resume-div'>
-      <div className='main-header-div'>
+      <div className='resume-header-div'>
         <h2 className='resume-header'>
-          Resume and Proficiencies
+          Resume
         </h2>
       </div>
       <div className='resume-container'>
         {/* Should probably note that I haven't updated my resume yet. */}
-        <iframe height='800px' title="My Resume" src={jgResume}></iframe>
+        <iframe className='resume-iframe' title="My Resume" src={jgResume}></iframe>
       </div>
       <div className='proficiencies'>
         <h3>Proficient Languages</h3>

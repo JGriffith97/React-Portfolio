@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     // Parent div to react elements.
-    <div>
+    <div className='react-parent'>
       <header>
         <div className='header-div'>
           <h1 className='header-main'>Jayden Griffith's Portfolio</h1>

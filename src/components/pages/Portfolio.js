@@ -14,7 +14,7 @@ import DailyPlanner from '../../images/DailyPlanner.png'
 export default function Portfolio() {
   return (
     <div className='portfolio-div'>
-      <div className='main-header-div'>
+      <div className='portfolio-header-div'>
         <h2>
           Portfolio
         </h2>
@@ -78,7 +78,7 @@ export default function Portfolio() {
               This is a weather app utilizing the OpenWeatherMap API to make multiple fetch calls to display information to the DOM. This was completed using HTML, JavaScript, jQuery, Moment.js, and Bootstrap.
             </div>
           </div>
-          <div className='project-container'>
+          <div className='project-container bottom'>
             <div className='project-left'>
               <img className='project-img' src={DailyPlanner} alt='Daily Planner API Project'/>
               <div className='project-link-top'><a className="project-anchor" href="https://jgriffith97.github.io/Daily-Planner/" rel="noreferrer" target="_blank">View Deployed App</a></div>

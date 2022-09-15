@@ -22,7 +22,7 @@ export default function Contact() {
 
   return (
     <div className='contact-div'>
-      <div className='main-header-div'>
+      <div className='contact-header-div'>
         <h2>
           Contact
         </h2>

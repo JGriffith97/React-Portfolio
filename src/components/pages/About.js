@@ -9,7 +9,7 @@ export default function About() {
   return (
     // Can add some different css styles if need be.
     <div className='main-div'>
-      <div className='main-header-div'>
+      <div className='about-header-div'>
         <h2>
           About Me
         </h2>

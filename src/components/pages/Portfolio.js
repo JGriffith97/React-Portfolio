@@ -5,6 +5,7 @@ import SocialNetworkAPI from '../../images/SocialNetworkAPI.png'
 import EmployeeTracker from '../../images/EmployeeTracker.png'
 import WeatherDashboard from '../../images/WeatherDashboard.jpg'
 import DailyPlanner from '../../images/DailyPlanner.png'
+import CampaignTracker from '../../images/Campaign-Tracker.jpeg'
 
 // NOTES-TODOs
 // Similar to what we did on the original portfolio, images linking to the
@@ -87,6 +88,19 @@ export default function Portfolio() {
             <div className='project-explanation'>
               <h3 className='project-title'>Daily Planner</h3>
               This is a functional daily planner for hour to hour scheduling, created by utilizing HTML, CSS, JavaScript, jQuery, Moment.js, and Bootstrap.
+            </div>
+          </div>
+        </div>
+        <div className='project-row'>
+          <div className='project-container-fill'>
+            <div className='project-single'>
+              <img className='project-img' src={CampaignTracker} alt='Campaign Tracker Project'/>
+              <div className='project-link-top'><a className="project-anchor" href="https://desolate-crag-84846.herokuapp.com/" rel="noreferrer" target="_blank">View Deployed App</a></div>
+              <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/tperschon/campaigntracker" rel="noreferrer" target="_blank">View On GitHub</a></div>
+            </div>
+            <div className='project-explanation'>
+              <h3 className='project-title'>Campaign Tracker</h3>
+              This is a group-made Dungeons And Dragons (DnD) companion app built to assist both the Dungeon Master (DM) and their players take and share notes associated with their present campaigns. 
             </div>
           </div>
         </div>

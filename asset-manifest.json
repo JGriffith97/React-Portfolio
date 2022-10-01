@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.045faff6.css",
-    "main.js": "/React-Portfolio/static/js/main.afd91c97.js",
+    "main.css": "/React-Portfolio/static/css/main.7783efe7.css",
+    "main.js": "/React-Portfolio/static/js/main.7bf76b13.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.557b841abadae565b6c1.jpg",
+    "static/media/Campaign-Tracker.jpeg": "/React-Portfolio/static/media/Campaign-Tracker.f2c91cd934d69f6b1f8f.jpeg",
     "static/media/MovieClub.jpg": "/React-Portfolio/static/media/MovieClub.3b12996a55ceb9bf80d3.jpg",
     "static/media/WeatherDashboard.jpg": "/React-Portfolio/static/media/WeatherDashboard.2715e6724a48d0bc96ca.jpg",
     "static/media/SocialNetworkAPI.png": "/React-Portfolio/static/media/SocialNetworkAPI.ec56b8240fca6932ae82.png",
@@ -13,11 +14,11 @@
     "static/media/GitHub_Logo_White.png": "/React-Portfolio/static/media/GitHub_Logo_White.a8b9701c86ec844aa39c.png",
     "static/media/stackoverflow-ico.webp": "/React-Portfolio/static/media/stackoverflow-ico.9803d09147e2c2847566.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.045faff6.css.map": "/React-Portfolio/static/css/main.045faff6.css.map",
-    "main.afd91c97.js.map": "/React-Portfolio/static/js/main.afd91c97.js.map"
+    "main.7783efe7.css.map": "/React-Portfolio/static/css/main.7783efe7.css.map",
+    "main.7bf76b13.js.map": "/React-Portfolio/static/js/main.7bf76b13.js.map"
   },
   "entrypoints": [
-    "static/css/main.045faff6.css",
-    "static/js/main.afd91c97.js"
+    "static/css/main.7783efe7.css",
+    "static/js/main.7bf76b13.js"
   ]
 }

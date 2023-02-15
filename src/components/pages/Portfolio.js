@@ -91,7 +91,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='project-row'>
+        {/* This section is commented out due to the app being unavailable on Heroku, and I don't presently have permissions to fix it. */}
+        {/* <div className='project-row'>
           <div className='project-container-fill'>
             <div className='project-single'>
               <img className='project-img' src={CampaignTracker} alt='Campaign Tracker Project'/>
@@ -103,7 +104,7 @@ export default function Portfolio() {
               This is a group-made Dungeons And Dragons (DnD) companion app built to assist both the Dungeon Master (DM) and their players take and share notes associated with their present campaigns. 
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

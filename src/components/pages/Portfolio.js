@@ -5,7 +5,7 @@ import SocialNetworkAPI from '../../images/SocialNetworkAPI.png'
 import EmployeeTracker from '../../images/EmployeeTracker.png'
 import WeatherDashboard from '../../images/WeatherDashboard.jpg'
 import DailyPlanner from '../../images/DailyPlanner.png'
-import CampaignTracker from '../../images/Campaign-Tracker.jpeg'
+// import CampaignTracker from '../../images/Campaign-Tracker.jpeg'
 
 // NOTES-TODOs
 // Similar to what we did on the original portfolio, images linking to the

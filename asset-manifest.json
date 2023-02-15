@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.7783efe7.css",
-    "main.js": "/React-Portfolio/static/js/main.7bf76b13.js",
+    "main.js": "/React-Portfolio/static/js/main.82f256ca.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.557b841abadae565b6c1.jpg",
-    "static/media/Campaign-Tracker.jpeg": "/React-Portfolio/static/media/Campaign-Tracker.f2c91cd934d69f6b1f8f.jpeg",
     "static/media/MovieClub.jpg": "/React-Portfolio/static/media/MovieClub.3b12996a55ceb9bf80d3.jpg",
     "static/media/WeatherDashboard.jpg": "/React-Portfolio/static/media/WeatherDashboard.2715e6724a48d0bc96ca.jpg",
     "static/media/SocialNetworkAPI.png": "/React-Portfolio/static/media/SocialNetworkAPI.ec56b8240fca6932ae82.png",
     "static/media/EmployeeTracker.png": "/React-Portfolio/static/media/EmployeeTracker.c32b41d72b839dbfe193.png",
     "static/media/TechBlog.png": "/React-Portfolio/static/media/TechBlog.e63d5433b1048ac5350d.png",
-    "static/media/JG-Resume.pdf": "/React-Portfolio/static/media/JG-Resume.be461e9ee429a5fda235.pdf",
     "static/media/DailyPlanner.png": "/React-Portfolio/static/media/DailyPlanner.462765f77ccdfe4e8524.png",
+    "static/media/JG-Resume.pdf": "/React-Portfolio/static/media/JG-Resume.71a5cd9fcfae44fd656c.pdf",
     "static/media/GitHub_Logo_White.png": "/React-Portfolio/static/media/GitHub_Logo_White.a8b9701c86ec844aa39c.png",
     "static/media/stackoverflow-ico.webp": "/React-Portfolio/static/media/stackoverflow-ico.9803d09147e2c2847566.webp",
     "index.html": "/React-Portfolio/index.html",
     "main.7783efe7.css.map": "/React-Portfolio/static/css/main.7783efe7.css.map",
-    "main.7bf76b13.js.map": "/React-Portfolio/static/js/main.7bf76b13.js.map"
+    "main.82f256ca.js.map": "/React-Portfolio/static/js/main.82f256ca.js.map"
   },
   "entrypoints": [
     "static/css/main.7783efe7.css",
-    "static/js/main.7bf76b13.js"
+    "static/js/main.82f256ca.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7783efe7.css",
-    "main.js": "/React-Portfolio/static/js/main.82f256ca.js",
+    "main.css": "/React-Portfolio/static/css/main.46f80966.css",
+    "main.js": "/React-Portfolio/static/js/main.9b4de75f.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.557b841abadae565b6c1.jpg",
     "static/media/MovieClub.jpg": "/React-Portfolio/static/media/MovieClub.3b12996a55ceb9bf80d3.jpg",
     "static/media/WeatherDashboard.jpg": "/React-Portfolio/static/media/WeatherDashboard.2715e6724a48d0bc96ca.jpg",
@@ -13,11 +13,11 @@
     "static/media/GitHub_Logo_White.png": "/React-Portfolio/static/media/GitHub_Logo_White.a8b9701c86ec844aa39c.png",
     "static/media/stackoverflow-ico.webp": "/React-Portfolio/static/media/stackoverflow-ico.9803d09147e2c2847566.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.7783efe7.css.map": "/React-Portfolio/static/css/main.7783efe7.css.map",
-    "main.82f256ca.js.map": "/React-Portfolio/static/js/main.82f256ca.js.map"
+    "main.46f80966.css.map": "/React-Portfolio/static/css/main.46f80966.css.map",
+    "main.9b4de75f.js.map": "/React-Portfolio/static/js/main.9b4de75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7783efe7.css",
-    "static/js/main.82f256ca.js"
+    "static/css/main.46f80966.css",
+    "static/js/main.9b4de75f.js"
   ]
 }

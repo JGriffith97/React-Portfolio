@@ -5,6 +5,12 @@
   --linkReg: 50%;
 }
 
+/* GLOBAL */
+/* -------------------------------------------------------------------------------- */
+  p {
+    margin-bottom: 0;
+  }
+
 /* --- Mobile --- */
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 767px) {
@@ -276,7 +282,7 @@
   }
 
   .project-title {
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
     text-decoration: underline;
   }
 
@@ -284,7 +290,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
+    padding: 5%;
     background-color: rgb(35, 35, 35);
     text-align: center;
     height: 100%;
@@ -671,7 +677,7 @@
   }
 
   .project-title {
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
     text-decoration: underline;
   }
 
@@ -679,7 +685,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
+    padding: 5%;
     background-color: rgb(35, 35, 35);
     text-align: center;
     height: 100%;
@@ -1098,7 +1104,7 @@
   }
 
   .project-title {
-    margin-bottom: 0.5%;
+    margin-bottom: 4%;
     text-decoration: underline;
   }
 
@@ -1106,7 +1112,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
+    padding: 5%;
     background-color: rgb(35, 35, 35);
     text-align: center;
     height: 100%;

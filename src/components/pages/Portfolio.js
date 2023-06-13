@@ -8,9 +8,8 @@ import DailyPlanner from '../../images/DailyPlanner.png'
 // import CampaignTracker from '../../images/Campaign-Tracker.jpeg'
 
 // NOTES-TODOs
-// Similar to what we did on the original portfolio, images linking to the
-// deployed application and/or the associated repository
-// Will need SIX. Need to add two more.
+// Going through the responsiveness settings, I've noticed that on the Nest Hub and Nest Hub Max devices, the desktop format is used, meaning that it adheres to the desktop 'hover-link' design.
+// May be worth reworking.
 
 export default function Portfolio() {
   return (
@@ -25,12 +24,15 @@ export default function Portfolio() {
           <div className='project-container'>
             <div className='project-left'>
               <img className='project-img' src={MovieClub} alt='Movie Club Project'/>
-              <div className='project-link-top'><a className="project-anchor" href="https://movieclub3.herokuapp.com/" rel="noreferrer" target="_blank">View Deployed App</a></div>
-              <div className='project-link-bottom'><a className="project-anchor" href="https://github.com/Firm-Tofu10/MovieClub" rel="noreferrer" target="_blank">View On GitHub</a></div>
+              {/* <div className='project-link-top'><a className="project-anchor" href="https://movieclub3.herokuapp.com/" rel="noreferrer" target="_blank">View Deployed App</a></div> */}
+              {/* NOTE: due to the deployed site being unavailable, only the Github link will be presently visible, hopefully soon resolved. As such, the className has been changed to 'project-link-center' */}
+              <div className='project-link-center'><a className="project-anchor" href="https://github.com/Firm-Tofu10/MovieClub" rel="noreferrer" target="_blank">View On GitHub</a></div>
             </div>
             <div className='project-explanation'>
               <h3 className='project-title'>Movie Club</h3>
-              This is a movie review project undertaken by Kate Patch, Bryson Benson and myself. It was created utilizing Express.js/Express-Handlebars/Express-Sessions, mySQL/Sequelize/mySQL2/Connect-Session-Sequelize, and bCrypt. As part of Project 2 of the UofU's Coding Bootcamp.
+                <p>This is a movie review project undertaken by Kate Patch, Bryson Benson and myself. It was created utilizing Express.js/Express-Handlebars/Express-Sessions, mySQL/Sequelize/mySQL2/Connect-Session-Sequelize, and bCrypt.</p>
+                  <br />
+                <p>Note that due to myself not having direct control of the Heroku repository, the deployed site is temporarily unavailable</p>
             </div>
           </div>
           <div className='project-container'>
@@ -41,7 +43,7 @@ export default function Portfolio() {
             </div>
             <div className='project-explanation'>
               <h3 className='project-title'>Tech Blog</h3>
-              This is a full-stack application serving as a tech blog. It was created using Node.js, mySQL/Sequelize, Express/Express-Sessions/Express-Handlebars; and utilizing Model-View-Controller(MVC) framework. As part of Module 14 of the UofU's Coding Bootcamp.
+              This is a full-stack application serving as a tech blog. It was created using Node.js, mySQL/Sequelize, Express/Express-Sessions/Express-Handlebars; and utilizing Model-View-Controller(MVC) framework.
             </div>
           </div>
         </div>
@@ -53,7 +55,7 @@ export default function Portfolio() {
             </div>
             <div className='project-explanation'>
               <h3 className='project-title'>Social Network API</h3>
-              This is a social network backend API built utilizing Express.js, MongoDB, Mongoose, and NodeJS. As part of Module 18 of the UofU's Coding Bootcamp.
+              This is a social network backend API built utilizing Express.js, MongoDB, Mongoose, and NodeJS.
             </div>
           </div>
           <div className='project-container'>
@@ -63,7 +65,7 @@ export default function Portfolio() {
             </div>
             <div className='project-explanation'>
               <h3 className='project-title'>Employee Tracker</h3>
-              This is an employee tracker, designed to track individual employees, their roles, departments, and salary. This application was made with NodeJS, mySQL, and with the console.table, dotenv, inquirer, and mysql2 NPM modules. As part of the Module 12 Challenge of the UofU's Coding Bootcamp.
+              This is an employee tracker, designed to track individual employees, their roles, departments, and salary. This application was made with NodeJS, mySQL, and with the console.table, dotenv, inquirer, and mysql2 NPM modules.
             </div>
           </div>
         </div>
